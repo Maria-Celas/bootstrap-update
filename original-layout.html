@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="original-layout.css" />
+    <title>oops!</title>
+  </head>
+
+  <body>
+    <div class="d-flex" id="wrapper">
+      <!-- Sidebar -->
+      <div class="left-menu" id="sidebar-wrapper">
+        <header class="header">
+          <img class="alex" src="./images/Alex.png" />
+          <h2>Alex Labley <img src="./images/drop-down.png" /></h2>
+          <p>Module Lead - UX</p>
+        </header>
+        <ul class="sidebar-menu">
+          <li class="have-children">
+            <a href="#"
+              ><span class="dashboard"
+                ><img src="./images/dashboard.png" /></span
+              >Dashboard</a
+            >
+            <ul>
+              <li><a href="#">Company Revenue</a></li>
+              <li><a href="#">Company Growth</a></li>
+              <li><a href="#">Project History</a></li>
+            </ul>
+          </li>
+          <li class="have-children">
+            <a href="#"
+              ><span class="group"><img src="./images/organization.png" /></span
+              >Group</a
+            >
+            <ul>
+              <li><a href="#">Company Revenue</a></li>
+              <li><a href="#">Company Growth</a></li>
+              <li><a href="#">Project History</a></li>
+            </ul>
+          </li>
+          <li class="have-children">
+            <a href="#"
+              ><span class="blog"><img src="./images/blogging.png" /></span
+              >Blog</a
+            >
+            <ul>
+              <li><a href="#">Company Revenue</a></li>
+              <li><a href="#">Company Growth</a></li>
+              <li><a href="#">Project History</a></li>
+            </ul>
+          </li>
+          <li class="have-children">
+            <a href="#"
+              ><span class="forum"
+                ><img src="./images/speech-bubbles.png" /></span
+              >Forum</a
+            >
+            <ul>
+              <li><a href="#">Company Revenue</a></li>
+              <li><a href="#">Company Growth</a></li>
+              <li><a href="#">Project History</a></li>
+            </ul>
+          </li>
+          <li class="have-children">
+            <a href="#"
+              ><span class="articles"
+                ><img src="./images/content-writing.png" /></span
+              >Articles</a
+            >
+            <ul>
+              <li><a href="#">Company Revenue</a></li>
+              <li><a href="#">Company Growth</a></li>
+              <li><a href="#">Project History</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- /#sidebar-wrapper -->
+
+      <!-- Page Content -->
+      <div id="page-content-wrapper">
+        <nav class="navbar navbar-expand-lg navbar-light py-4 px-4 top-nav">
+          <div class="d-flex align-items-center">
+            <img
+              id="menu-toggle"
+              src="./images/fries-menu.png"
+              alt="fries-menu"
+            />
+            <img
+              class="mx-3"
+              src="./images/logo.png"
+              alt="Aspire-Systems-Logo"
+            />
+          </div>
+          <img src="./images/bell.png" alt="Notifications" />
+        </nav>
+        <!-- /#navbar-wrapper -->
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-9">
+              <!-------------------- dashboard -------------------------->
+              <div class="row">
+                <div class="p-3 d-flex">
+                  <h1 class="dash-board">Dashboard</h1>
+                </div>
+              </div>
+              <!-------------------- cards -------------------------->
+              <div class="row g-3 my-2">
+                <div class="col-md-3">
+                  <div
+                    class="p-3 bg-white d-flex justify-content-around align-items-center"
+                  >
+                    <div>
+                      <span class="round1"
+                        ><img src="images/working-briefcase.png"
+                      /></span>
+                      <h5 class="app">Projects</h5>
+                      <p class="status">02</p>
+                      <p class="description">On Going Projects</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3">
+                  <div
+                    class="p-3 bg-white d-flex justify-content-around align-items-center"
+                  >
+                    <div>
+                      <span class="round2"
+                        ><img src="images/calendar-1.png"
+                      /></span>
+                      <h5 class="app">LMS</h5>
+                      <p class="status">08<span class="time">/15</span></p>
+                      <p class="description">Available Leave</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3">
+                  <div
+                    class="p-3 bg-white d-flex justify-content-around align-items-center"
+                  >
+                    <div>
+                      <span class="round3"
+                        ><img src="images/online-learning.png"
+                      /></span>
+                      <h5 class="app">Training</h5>
+                      <p class="status">10<span class="time">/24</span></p>
+                      <p class="description">Training Hours</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3">
+                  <div
+                    class="p-3 bg-white d-flex justify-content-around align-items-center"
+                  >
+                    <div>
+                      <span class="round4"
+                        ><img src="images/calendar-2.png"
+                      /></span>
+                      <h5 class="app">TAS Allocation</h5>
+                      <p class="status">80<span class="time">/Hrs</span></p>
+                      <p class="description">Jejudo-cardio-iOS</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!------------------- charts and calendar --------------------------->
+              <div class="row g-3 my-2">
+                <div class="col-md-4">
+                  <div
+                    class="p-3 bg-white d-flex justify-content-around align-items-center"
+                  >
+                    <div>
+                      <p class="revenue">
+                        Company Revenue<span class="count">Million</span>
+                      </p>
+                      <canvas
+                        id="multi-line-chart"
+                        style="max-width: 220px; height: 240px"
+                      ></canvas>
+
+                      <span class="value-1"
+                        ><p class="tag-name-1">Total Revenue</p></span
+                      >
+
+                      <span class="value-2"
+                        ><p class="tag-name-2">Marginal Revenue</p></span
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div
+                    class="p-3 bg-white d-flex justify-content-around align-items-center"
+                  >
+                    <div>
+                      <p class="revenue">
+                        Company Growth<span class="count">Million</span>
+                      </p>
+                      <canvas
+                        id="single-line-chart"
+                        style="max-width: 200px; height: 220px"
+                      ></canvas>
+                      <span class="x-axis">Year 1986 - 2020</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div
+                    class="px-5 py-3 bg-white d-flex justify-content-around align-items-center"
+                  >
+                    <div>
+                      <div class="calendar-top">
+                        <img class="left" src="images/calendar-left.png" />
+                        <h3>Jun 2019</h3>
+                        <img class="right" src="images/calendar-right.png" />
+                      </div>
+
+                      <table class="table align-middle table-borderless">
+                        <thead>
+                          <tr>
+                            <th class="days">S</th>
+                            <th class="days">M</th>
+                            <th class="days">T</th>
+                            <th class="days">W</th>
+                            <th class="days">T</th>
+                            <th class="days">F</th>
+                            <th class="days">S</th>
+                          </tr>
+                        </thead>
+
+                        <tbody>
+                          <tr>
+                            <td></td>
+                            <td></td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                          </tr>
+                          <tr></tr>
+                          <tr>
+                            <td>6</td>
+                            <td>7</td>
+                            <td>8</td>
+                            <td>9</td>
+                            <td>10<span class="dot8"></span></td>
+                            <td>11<span class="dot4"></span></td>
+                            <td>12</td>
+                          </tr>
+                          <tr>
+                            <td>13</td>
+                            <td>14<span class="dot5"></span></td>
+                            <td>15</td>
+                            <td>16</td>
+                            <td>17</td>
+                            <td>18</td>
+                            <td>19</td>
+                          </tr>
+                          <tr>
+                            <td>20</td>
+                            <td>21</td>
+                            <td>22</td>
+                            <td>23</td>
+                            <td>24<span class="dot6"></span></td>
+                            <td>25</td>
+                            <td>26</td>
+                          </tr>
+                          <tr>
+                            <td>27</td>
+                            <td>28</td>
+                            <td>29<span class="dot7"></span></td>
+                            <td>30</td>
+                            <td>31</td>
+                            <td class="days">1</td>
+                            <td class="days">2</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div class="marker">
+                        <span class="dot1"
+                          ><p class="holiday">Company Holiday</p></span
+                        >
+                        <span class="dot2"
+                          ><p class="meeting">Project Meeting</p></span
+                        >
+                        <span class="dot3"
+                          ><p class="session">Training Session</p></span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--------------------------- table --------------------------------------------->
+              <div class="row my-5">
+                <div class="col">
+                  <div class="table-responsive">
+                    <table
+                      class="table bg-white align-middle project-history-table"
+                    >
+                      <tr>
+                        <th colspan="7" class="table-caption">
+                          <p class="p1">Project History</p>
+                          <p class="p2">Last update on March 2019</p>
+                          <div class="top-container">
+                            <span
+                              class="indicator"
+                              style="background-color: #41a534"
+                            ></span>
+                            <span class="status">COMPLETED</span>
+                            <span
+                              class="indicator"
+                              style="background-color: #ff813e"
+                            ></span>
+                            <span class="status">IN-PROGRESS</span>
+                            <span class="sp1">Year</span>
+                            <span class="year">2019</span>
+                            <span
+                              ><img
+                                class="dropdown"
+                                src="images/year.png"
+                                alt="image"
+                            /></span>
+                          </div>
+                        </th>
+                      </tr>
+
+                      <tr>
+                        <th class="table-header">Projects Name</th>
+                        <th class="table-header">Project Description</th>
+                        <th class="table-header">Project Type</th>
+                        <th class="table-header">Duration</th>
+                        <th class="table-header">Start Date</th>
+                        <th class="table-header">End Date</th>
+                        <th class="table-header">Status</th>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img src="images/cardio.png" alt="Project name" />
+                        </td>
+                        <td>
+                          <p class="para">S-patch Cardio is a real-time</p>
+                          <p class="para">ECG monitoring solution</p>
+                        </td>
+                        <td>Mobile App</td>
+                        <td>3-Months</td>
+                        <td>06/08/2019</td>
+                        <td>12/11/2019</td>
+                        <td class="align-dot">
+                          <span
+                            class="dot"
+                            style="background-color: #ff813e"
+                          ></span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img
+                            src="images/car-registered.png"
+                            alt="Project name"
+                          />
+                        </td>
+                        <td>
+                          <p class="para">CAR is committed to leading</p>
+                          <p class="para">the Sub-Prime Automotive…</p>
+                        </td>
+                        <td>Mobile App</td>
+                        <td>3-Months</td>
+                        <td>14/04/2019</td>
+                        <td>22/08/2019</td>
+                        <td class="align-dot">
+                          <span
+                            class="dot"
+                            style="background-color: #41a534"
+                          ></span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img
+                            src="images/BH-color-logo.png"
+                            alt="Project name"
+                          />
+                        </td>
+                        <td>
+                          <p class="para">BenefitHub’s mission is to help</p>
+                          <p class="para">millions of people improve…</p>
+                        </td>
+                        <td>Mobile App</td>
+                        <td>3-Months</td>
+                        <td>06/01/2019</td>
+                        <td>12/04/2019</td>
+                        <td class="align-dot">
+                          <span
+                            class="dot"
+                            style="background-color: #41a534"
+                          ></span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img src="images/gov-dubai.png" alt="Project name" />
+                        </td>
+                        <td>
+                          <p class="para">The Knowledge and Human</p>
+                          <p class="para">Development Authority (KHDA)…</p>
+                        </td>
+                        <td>Web App</td>
+                        <td>6-Months</td>
+                        <td>14/05/2018</td>
+                        <td>22/11/2018</td>
+                        <td class="align-dot">
+                          <span
+                            class="dot"
+                            style="background-color: #41a534"
+                          ></span>
+                        </td>
+                      </tr>
+                      <tr class="remove-border">
+                        <td colspan="7">
+                          <span class="page-display">Page 1/20</span>
+                          <span class="pagination">
+                            <a href="#">&laquo;</a>
+                            <a href="#">1</a>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
+                            <a href="#">4</a>
+                            <a href="#">5</a>
+                            <a href="#">&raquo;</a>
+                          </span>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+
+              <!----------------------------------- footer ------------------------------------------>
+              <div class="row my-5">
+                <div
+                  class="p-3 d-flex justify-content-around align-items-center"
+                >
+                  © Copyrights 2019 Creo
+                </div>
+              </div>
+            </div>
+            <!-- /#col-sm-9 -->
+            <!----------------------------------- right sidebar ----------------------------------------->
+            <div class="col-sm-3 bg-white">
+              <!-- part-1 -->
+              <table class="table bg-white my-4 skills-table">
+                <thead>
+                  <tr class="remove-border">
+                    <th scope="col" class="my-skills">My Skills</th>
+                    <th scope="col" class="update">Update</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">
+                      <img src="./images/adobe-xd.png" alt="skills" />&nbsp;
+                      Adobe XD
+                    </th>
+                    <td>80%</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <img src="./images/photoshop.png" alt="skills" />&nbsp;
+                      Adobe Photoshop
+                    </th>
+                    <td>70%</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <img src="./images/sketch.png" alt="skills" />&nbsp;
+                      Sketch
+                    </th>
+                    <td>50%</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <img src="./images/invision.png" alt="skills" />&nbsp;
+                      InVision
+                    </th>
+                    <td>60%</td>
+                  </tr>
+                </tbody>
+              </table>
+              <!-- part-2 -->
+              <div class="announce">
+                <p class="announcement">ANNOUNCEMENTS</p>
+                <p class="awards">
+                  Role Star Awards <hr class="violet"><span class="client">Client Appreciation</span>
+                </p>
+                <img class="maskgrp" src="./images/group.png"/>
+                <span class="name"><p class="employee">Merlin Matthew</p><p class="role">Testing</p>
+                  <img class="leftarrow" src="./images/back.png">
+                <img class="rightarrow" src="./images/front.png">
+              </span>
+              </div>
+              <!-- part-3  -->
+             
+            </div>
+          </div>
+          <!-- /#row -->
+        </div>
+        <!-- /#container-fluid -->
+      </div>
+      <!-- /#page-content-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="navbar.js"></script>
+    <script src="chart-1.js"></script>
+    <script src="chart-2.js"></script>
+  </body>
+</html>
